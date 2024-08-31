@@ -1,0 +1,96 @@
+{
+    "intents":[
+
+        {"tag":"greetings",
+         "patterns": ["Hello","Hey","Hii","Hii Chatbot","greetings","Good Morning","Good Afternoon","Good Evening","Who are you?"],
+         "responses":["Hello.. Welcome to Shoe Tex. We have a variety of shoes available.May I know Your Preferences"]
+        },
+        {
+            "tag":"preference",
+            "patterns":["preferences","what type of shoes do you have?","shoes","Variety of shoes","Tell me more","what preferences do you have","what do you offer?","i'd like to buy something","shopping","What are your products"],
+            "responses":["We offer collections of \nSneakers\nBoots\nSlippers\nSports.\nEnter your preference to get more details."]
+        },
+        {
+            "tag": "sneakers",
+            "patterns": ["Sneakers","Sneaker shoes","show sneakers shoes","sneakers shoe","sneakers shoes","what sneaker shoes you have?"],
+            "responses":["We have some lovely pairs of Sneakers that you may be looking for\n Affrojack Stylish Sneakers for Women\nBoys Stylish - Sneakers for Men\nMen Casual Mesh Sneakers Shoe - M250\nStylish Premium High Top Slip On Sneaker Shoes for Women\n If you want to filter search for men/women Type\n Sneakers for Men - for men's sneakers\n Sneakers for Women - for women's sneakers"]
+        },
+        {
+            "tag":"women's sneakers",
+            "patterns":["Sneakers for Women","women's sneakers","sneakers women","sneaker shoes for women","sneaker shoes women"],
+            "responses":["For the lovely ladies we have \nWomen's Color Printed Sneaker Boots Shoe - w5\n Women's Color Blocked Sneaker Boots Shoe w4\nWomens Casual Shoes | Sneaker Boots | Lace up | Lightweight Shoes w1299\nWomen White Synthetic Leather Old School Sneakers\nWomen's w715 Sneaker Shoe\nWomen's White Sneaker Shoes - w120\n.Women's w500 Sneakers Shoe\nWomen's Western - Embellished Sneakers Shoe w600\n9.Women's Western - Embellished Colour Blocked Sneakers w220\n10.Affrojack Stylish Sneakers for Women"]
+        },
+        {
+            "tag":"men's sneakers",
+            "patterns":["Sneakers for men","men's sneakers","sneakers men","sneaker shoes for men","sneaker shoes men"],
+            "responses":["For the Gentlemen we have \n Men's Casual Shoes | Sneakers | Lace up | Lightweight Shoes m8004\nmens Beijing Sneaker\nMen's High Ankle Sneaker Boots\nmens Signolet Sneaker\nMen Casual Mesh Sneakers Shoe - M250"]
+        },
+        {
+            "tag":"boots",
+            "patterns":["Boots","Boots shoes","show boots shoes","show boots","boots shoe","boots shoes"],
+            "responses":["We have some lovely pairs of Boots that you may be looking for\nMen's Chelsea Black High Ankle Boots\nMen's Original Leather Chelsea Boots\nMen's Chelsea Ankle Boots\nWomen Flat Shoes\n5.Women Calf-Length Boots \nIf you want to filter search for men/women Type\n Boots for Men - for men's boots\n Boots for Women - for women's boots"]
+
+        },
+        {
+            "tag":"women's boots",
+            "patterns":["Boots for women","women's boots","Boots women","boots shoes for women","Boots shoes women","boot women"],
+            "responses":["For the Lovely Ladies we have \nWomen Flat Shoes\nWomen Calf-Length Boots \nWomen Solid Heeled Boots\nWomen Suede Winter Boots\nWomen High-top regular Boots\nWomen High-top Slouchy Boots\nWomen High-top Flat Boots\nWomen Heeled Boots\nWomen Black Solid Casual Block-Heeled Boots\nBlack Flatform Heeled Boots\nBlack Platform Heeled Boots with Buckles"]
+        },
+        {
+            "tag":"men's boots",
+            "patterns":["Boots for men","men's boots","boots men","boots shoes for men","boot shoes men","boots shoes for men","boot men"],
+            "responses":["For the Gentlemen we have \n Men's Chelsea Black High Ankle Boots\nMen's Original Leather Chelsea Boots\nMen's Chelsea Ankle Boots\nLeather Biker Boots\nMen Khaki & Olive Green Colourblocked Nubuck Leather Mid-Top Flat Boots\nMen Solid Regular Boots\nMen Flat Boots"]
+        },
+        {
+            "tag":"slippers",
+            "patterns":["Slippers","variety in slippers","slipper","Home wears","Slippers to wear in homes"],
+            "responses":["We have Comfy slippers for Both Men and Women .Some of them are listed below\n1.Unisex Black Bayaband Clogs\n2.Men Black Printed OFFCOURT Sliders\nUnisex White Printed Popcat 20 RES Sliders\nWomen Flip-Flops 100 Turquoise Black\nWomen Pool Flip Flop Tonga 100 Basic Blue\nIf you want to filter search for men/women Type\n Slippers for Men - for men's Slippers\n Slippers for Women - for women's Slippers"]
+        },
+        {
+            "tag":"women's slippers",
+            "patterns":["Slippers for Women","Womens slippers","Women Home wears","Women slippers","Slippers women","Slipper women"],
+            "responses":["Our Comfy Collections for Women:\nWomen Flip-Flops 100 Turquoise Black\nWomen Pool Flip Flop Tonga 100 Basic Blue\nUnisex Black Bayaband Clogs\nUnisex White Printed Popcat 20 RES Sliders\nWomen Shoes Areeta Jiome Blue\nWomen Solid Slip-On Flipflops\nThong-Strap Flat Sandals"]
+
+        },
+        {
+            "tag":"men's slippers",
+            "patterns":["Slippers for Men","Mens Slippers","Men Home wears","men slippers","Slippers men","Slipper men"],
+            "responses":["Our Comfy Collection for Men:\nMen Black Printed OFFCOURT Sliders\nUnisex Black Bayaband Clogs\nEcological Flip Flops for Men | Comfortable Indoor Outdoor Fashionable Slippers for Boys\n4.Men's Water Proof Slides Flip Flop Sliders House Slippers\nMen Sandals Flip Flops Slides Slippers\nMen Rubber Sliders\nMen Stripped Sliders"]
+        },
+        {
+            "tag":"sports",
+            "patterns":["Sports wear","shoes for sports","sports shoes","sports","shoe for sports","game shoes","shoes for fitness"],
+            "responses":["Flexible and Comfortable styles for Sports Shoes\nHigh Ankle Knitwear Running Shoes for Men\nMen's Wonder-13 Sports Running Shoes\nMen's Rugged Trekking Shoes 1225\nWomen Walking Shoes\nSlip on Running Sports Shoes\nIf you want to filter search for men/women Type\n Sport shoes for Men - for men's Slippers\n Sports shoes for Women - for women's Slippers"]
+        },
+        {
+            "tag":"women's sports shoes",
+            "patterns":["Sport shoes for women","Women Sports wear","Sports wear women","Women fitness shoes","Fitness shoes for women"],
+            "responses":["Style With Flexibility.A wide collection of Sports shoes for women\nWomen Walking Shoes\n2.Slip on Running Sports Shoes\nWomen Black Lex Safari Glam Training Shoes\nWomen Purple Textile Retro Skateboarding Non-Marking Sports Shoes\nWomen Mauve Woven Design Soft Walk Series 2.0 Socks Shoes\nUnisex Black & Orange Woven X Speedportal.3 Firm Ground Bootstrail Football Shoes\nWomen Mauve On The Go Flex Remedy Walking Shoes"]
+        },
+        {
+            "tag":"men's sports shoes",
+            "patterns":["Sport shoes for men","men Sports wear","Sports wear men","men fitness shoes","Fitness shoes for men"],
+            "responses":["Style With Flexibility.A wide collection of Sports shoes for Men:\nHigh Ankle Knitwear Running Shoes for Men\n2.Slip on Running Sports Shoes\nMen White Quest 5 Running Shoes\n4.Men Grey Mesh Walking Shoes\nMen Black Fuse 2.0 Training Shoes\n6.Men White Jumpman Two Trey Leather Mid-Top Basketball Shoes\n7Men Navy Blue & Red Printed ExcelCourt Mid-Top Leather Running Shoes\n8.Men Black & Green Air Winflo 9 Shield Running Shoes"]
+        },
+        {
+            "tag":"other",
+            "patterns":["What else do you have?","More options","Latest collections","Latest launchings","Latest launching collections","more"],
+            "responses":["Latest collections launching this Weekend include\nWomen's Sandal\nFlip-flops Kid's collection\nKid's Sports wear\n*New addition to Men's sneakers"]
+        },
+        {
+            "tag":"goodbye",
+            "patterns":["cya","See you Later","Goodbye","I am Leaving","Have a good day","Bye","see ya"],
+            "responses":["Its was great having conversation with you:)...Have a nice Day!!!"]
+        },
+        {
+            "tag":"hours",
+            "patterns":["When are you open?","what are your hours?","Hours of Shop"],
+            "responses":["24/7"]
+        },
+        {
+            "tag": "else",
+            "patterns":["Movies","College","Mall"],
+            "response":["Sorry... We do not provide this service"]
+        }
+    ]
+}
